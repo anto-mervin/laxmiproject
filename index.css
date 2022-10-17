@@ -11,6 +11,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
 body{
     overflow-x: hidden;
 }
@@ -329,6 +333,90 @@ transition: ease 0.5s;
     background: linear-gradient(0deg, rgba(35, 79, 109, 0.3) 0%, rgba(69, 95, 113, 1) 100%);
 }
 
+.contentimg
+{
+    background-image: url("./img/home2.jpg");
+    width: 100%;
+    background-size: cover;
+    height: 40vw;
+}
+
+.contentbox__wrapper
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5vw;
+    height: 100%;
+    font-size: 16px;
+
+}
+.contentbox__wrapper > .contentbox > .content__text 
+{
+    background-color: #d7263d;
+    color: white;
+    border-radius: 30px;
+    display: inline;
+    padding: 5px 10px;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+   
+}
+.contentbox__wrapper > .contentbox > .content__slogan
+{
+
+
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    /* margin: 10px 0; */
+    font-size: 3.5em;
+}
+
+/* shape */
+.shapebox
+{
+
+    width:80%;
+    background-color: aliceblue;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    border-radius: 10px;
+    
+
+
+}
+.shapecircle
+{
+    height: 60px;
+    width: 60px;
+    position:absolute;
+    background-color: #000;
+    border-radius: 50%;
+    left:-25px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+
+    .contentbox__wrapper
+    {
+        font-size: 8px;
+        padding: 10vh 0;
+    }
+   
+  }
 
 
 
