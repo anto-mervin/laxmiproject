@@ -371,30 +371,32 @@ transition: ease 0.5s;
     /* margin: 10px 0; */
     font-size: 3.5em;
 }
-
-/* shape */
-.shapebox
+.iconbox
 {
-
-    width:80%;
-    background-color: aliceblue;
-    height: 60px;
-    position: relative;
-    text-align: center;
-    border-radius: 10px;
-    
-
-
+    margin: 15px  0;
 }
-.shapecircle
+
+.content__icon
 {
-    height: 60px;
-    width: 60px;
-    position:absolute;
-    background-color: #000;
-    border-radius: 50%;
-    left:-25px;
- 
+    background-color: white;
+    border-radius: ;
+    color: #d7263d;
+    padding: 15px;
+    font-size: 2em;
+}
+.content__icontext
+{
+    border: 3px solid white;
+    padding: 15px;
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    font-size: 1.4em;
+}
+.content__subtext
+{
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.2em;
 
 }
 

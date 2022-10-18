@@ -58,7 +58,7 @@
    <!-- home -->
    <header class="section-carousel" >
     
-    <div class="carousel-single owl-carousel owl-drag owl-theme" style="background-color: black;">
+    <div class="carousel-single owl-carousel owl-drag owl-theme owl-carouselhead" style="background-color: black;">
           
       <div class="carousel-item w-100 d-flex align-items-center" style="background-image: url('./img/home.jpg'); " >
         <div class="container">
@@ -233,29 +233,28 @@
             </div>
           </div>
           <div class="col-12 col-md-5 p-0 m-0 d-flex justify-content-center align-items-center flex-column " style="background-color: #d7263d;">
-                <div class="shapebox mb-4">
-                  <div class="shapecircle">
+            <div class="content__subtext text-center mb-3">Special in making customized <br>clothing with over 10 years' experience</div>
+                
+           <div class="d-flex flex-row iconbox">
+            <span class="fa-solid fa-lightbulb content__icon"></span>
+            <div class="content__icontext">Lorem ipsum dolor sit amet,dolor sit a </div>
+           </div>
                   
-                  </div>
-                  <div class="shape__text ">lorem lorem lorem</div>
-                </div>
-
-                <div class="shapebox mb-4">
-                  <div class="shapecircle">
+           <div class="d-flex flex-row iconbox">
+            <span class="fa-solid fa-lightbulb content__icon"></span>
+            <div class="content__icontext">Lorem ipsum dolor sit amet,dolor sit a </div>
+           </div>
                   
-                  </div>
-                  <div class="shape__text">lorem lorem lorem</div>
-                </div>
-
-
-                <div class="shapebox mb-4">
-                  <div class="shapecircle">
+           <div class="d-flex flex-row iconbox">
+            <span class="fa-solid fa-lightbulb content__icon"></span>
+            <div class="content__icontext">Lorem ipsum dolor sit amet,dolor sit a </div>
+           </div>
                   
-                  </div>
-                  <div class="shape__text">lorem lorem lorem</div>
-                </div>
-         
-      
+           <div class="d-flex flex-row iconbox">
+            <span class="fa-solid fa-lightbulb content__icon"></span>
+            <div class="content__icontext">Lorem ipsum dolor sit amet,dolor sit a </div>
+           </div>
+           
 
           
 
@@ -271,17 +270,55 @@
   
 
 <!-- ---- -->
+<section>
+  <div class="brandslider">
+
+    <div class="owl-carousel owl-carousel-basic owl-theme owl-carousel1">
+      <div class="item"><h4>1</h4></div>
+      <div class="item"><h4>2</h4></div>
+      <div class="item"><h4>3</h4></div>
+      <div class="item"><h4>4</h4></div>
+      <div class="item"><h4>5</h4></div>
+      <div class="item"><h4>6</h4></div>
+      <div class="item"><h4>7</h4></div>
+      <div class="item"><h4>8</h4></div>
+    </div>
+
+  </div>
+</section>
 
 </div>
 
 <script>
-   $(".owl-carousel").owlCarousel({
+   $(".owl-carouselhead").owlCarousel({
     items: 1,
      autoplay: true,
      loop:true,
      dots:false
      
   });
+
+  $('.owl-carousel1').owlCarousel({
+    loop:true,
+    autoplay: true,
+    margin:10,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:5,
+            nav:true,
+            loop:false
+        }
+    }
+})
 
     
   </script>  
