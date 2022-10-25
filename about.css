@@ -65,6 +65,118 @@
     background-color:#d7263d
 
 }
+.box
+{
+    height: 80vh;
+    background: url("./img/home.jpg");
+    background-size: cover;
+}
+.box > .row {
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.aboutbox_content
+{
+    
+   background-color: rgba(255,255,255,0.7);
+    border-radius: 25px;
+}
+.box > .row > .aboutbox_content >.h2
+{
+    font-family: 'Playfair Display',serif;
+    font-size: 3em;
+    padding: 25px  ;
+    font-weight: 800;
+}
+.box > .row > .aboutbox_content > p
+{
+
+    font-family: 'Poppins', sans-serif !important;
+    color: #525252;
+    font-size: 1em;
+
+}
+.box > .row > .aboutbox_content > p >i{
+    padding: 10px;
+    color: #d7263d;
+    font-size: 15px;
+}
+.certifications
+{
+    padding: 0 10vw;
+    padding-bottom: 50px;
+}
+
+
+.card1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 15px;
+    aspect-ratio: 1;
+    background-color: #d7263d;
+    cursor: pointer;
+    /* border: 5px  #d7263d solid; */
+}
+.card1 .circle1 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1;
+    background-image: url("./img/about-img.jpg");
+    border-radius: 50%;
+    position: absolute;
+    transition: transform ease 0.22s;
+    transform: scale(0.9);
+    z-index: 1;
+}
+.card1 .contents1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-height: 100%;
+    aspect-ratio: 1;
+    padding: 10%;
+    z-index: 2;
+}
+/* .card1 .contents1  > h2 {
+    font-size: 2rem;
+    font-weight: 700;
+} */
+.card1 .contents1 > h2{
+    font-size: 2rem;
+    font-weight: 700;
+    position: absolute;
+    visibility: hidden;
+    transition: opacity ease 0.22s;
+    opacity: 0;
+    background-color: #fff;
+    padding: 10px 20px;
+    color: #d7263d;
+    border-radius: 10px;
+    
+}
+.card1:hover .circle1 {
+    transform: scale(1.5);
+   
+    
+}
+/* .card1:hover .contents1 > h2 {
+    position: relative;
+    margin-bottom: 0.5rem;
+} */
+.card1:hover .contents1 > h2 {
+    visibility: visible;
+    position: relative;
+    opacity: 1;
+}
+
 
 
 @media screen and (max-width: 480px)
@@ -77,9 +189,28 @@
     {
         background-color:white;
     }
+    .about_heading
+    {
+        color: rgba(255,255,255);
+        background-color: transparent;
+    }
     .aboutcontent__wrapper1
     {
         background-color: white;
+       
+    }
+    .box
+    {
+        padding: 30px;
+    }
+    .box > .row {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        
     }
 }
 

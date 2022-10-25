@@ -60,7 +60,21 @@ body{
 {
 background-color: black !important;
 }
+.dropdown-item
+{
+    font-family: 'Raleway', sans-serif !important;
+    color: #000;
+    transition: .4s ease;
 
+}
+
+.dropdown-item:hover
+{
+    color: #FFF !important;
+    background-color: #d7263d !important;
+    
+    
+}
 .nav-text
 {
     font-family: 'Playfair Display', serif;
@@ -532,10 +546,7 @@ transition: ease 0.5s;
 
 @media screen and (max-width: 480px) {
  
-    body
-    {
-     
-    }
+    
     
     .contentbox__wrapper
     {
