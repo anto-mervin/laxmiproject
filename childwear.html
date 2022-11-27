@@ -9,11 +9,11 @@
    <link rel="stylesheet" href="gallery.css">
   
    <link rel="stylesheet" href="about.css">
-  <!-- aos -->
-   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-   <!-- ------ -->
-    <!-- bootstrap -->
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- ------ -->
+  
     
     
     <!-- fontawesome -->
@@ -94,18 +94,18 @@
    
 <!-- about us -->
   
-<section class="aboutus__heading" >
+<section class="aboutus__heading">
   <div class="row">
     <div class="col col-12 col-md-6 d-none d-lg-flex "></div>
-    <div class="col col-12 col-md-6 text-center about_heading"> <span style="color: #d7263d;">G</span>allery</div>
+    <div class="col col-12 col-md-6 text-center about_heading"  data-aos="fade-up"   data-aos-duration="1000"> <span style="color: #d7263d;">G</span>allery</div>
   </div>
 </section>
 <!-- ---- -->
 
 <section>
-  <div class="title-wrap text-center ">
+  <div class="title-wrap text-center " data-aos="fade-up"   data-aos-duration="1000" data-aos-offset="350">
     <div class="subtext"><span></span></div>
-    <div class="title">Children's<span> Wear</span></div>
+    <div class="title" >Men's<span> Wear</span></div>
 
   </div>
 </section>
@@ -113,7 +113,7 @@
 
 <div class="container__wrap p-5 pt-0">
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="150" data-aos-offset="300">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -127,7 +127,7 @@
   </div>
  </div>
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="300" data-aos-offset="300"> 
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -142,7 +142,7 @@
  </div>
 
  
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="450" data-aos-offset="300">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -156,7 +156,7 @@
   </div>
  </div>
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="150">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -171,7 +171,7 @@
  </div>
 
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="300">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -185,7 +185,7 @@
   </div>
  </div>
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="450">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -199,7 +199,7 @@
   </div>
  </div>
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="150">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -213,7 +213,7 @@
   </div>
  </div>
 
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="300">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -228,7 +228,7 @@
  </div>
 
  
- <div class="container1">
+ <div class="container1" data-aos="fade"   data-aos-duration="1000" data-aos-delay="450">
   <div class="container__info">
    <span><i class=""></i>Men's Wear</span>
   
@@ -328,6 +328,8 @@
 
 <script>
  
+      AOS.init({once:true});
+   
 $( window ).on("load", function() {
         // Handler for .load() called.
         
@@ -337,30 +339,7 @@ $( window ).on("load", function() {
 
 
 
-  $('.owl-carousel1').owlCarousel({
-    loop:true,
-    autoplay: true,
-    margin:15,
-    dots:false,
-   
-    nav:false,
-    responsiveClass:true,
-    responsive:{
-        0:{
-            items:1,
-           
-        },
-        600:{
-            items:3,
-         
-        },
-        1000:{
-            items:5,
-          
-            
-        }
-    }
-})
+
 
     
   </script>  
