@@ -28,7 +28,7 @@
   border: 5px white solid;
 }
 .aboutcontent__wrapper {
-  background-color: #d7263d;
+  background-color: #128fc8;
   padding: 0 30px;
 }
 .about_title {
@@ -38,6 +38,7 @@
 }
 .about_p {
   font-family: "Poppins", sans-serif;
+  text-align: justify;
 
   font-size: 1em;
 }
@@ -46,7 +47,7 @@
 }
 
 .article-block_bg {
-  background-color: #d7263d;
+  background-color: #128fc8;
 }
 .box {
   height: 80vh;
@@ -77,7 +78,7 @@
 }
 .box > .row > .aboutbox_content > p > i {
   padding: 10px;
-  color: #d7263d;
+  color: #128fc8;
   font-size: 15px;
 }
 .certifications {
@@ -90,9 +91,9 @@
   position: relative;
   border-radius: 15px;
   aspect-ratio: 1;
-  background-color: #d7263d;
+  background-color: #128fc8;
   cursor: pointer;
-  /* border: 5px  #d7263d solid; */
+  /* border: 5px  #128FC8 solid; */
 }
 .card1 .circle1 {
   top: 0;
@@ -132,7 +133,7 @@
   opacity: 0;
   background-color: #fff;
   padding: 10px 20px;
-  color: #d7263d;
+  color: #128fc8;
   border-radius: 10px;
 }
 .card1:hover .circle1 {
@@ -150,7 +151,7 @@
 
 @media screen and (max-width: 480px) {
   .article-block {
-    background-color: #d7263d !important;
+    background-color: #128fc8 !important;
   }
   .article-block_bg {
     background-color: white;

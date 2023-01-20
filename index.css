@@ -38,7 +38,7 @@ body {
   transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
-  color: #d7263d !important;
+  color: #02a8cc !important;
 }
 /* --- */
 .bg-img-scroll {
@@ -69,7 +69,7 @@ body {
 
 .dropdown-item:hover {
   color: #fff !important;
-  background-color: #d7263d !important;
+  background-color: #02a8cc !important;
 }
 .nav-text {
   font-family: "Playfair Display", serif;
@@ -91,7 +91,7 @@ body {
   color: white !important;
 }
 .nav-padding:hover {
-  color: #d7263d !important;
+  color: #02a8cc !important;
 }
 /* home */
 .home-wrapper {
@@ -193,7 +193,7 @@ body {
   font-size: 1.5em;
 }
 .title-wrap > .subtext > span {
-  color: #d7263d;
+  color: #02a8cc;
 }
 .title-wrap > .title {
   font-family: "Jost", sans-serif;
@@ -201,7 +201,7 @@ body {
   margin-top: -15px;
 }
 .title-wrap > .title > span {
-  color: #d7263d;
+  color: #02a8cc;
 }
 
 /* about */
@@ -240,7 +240,7 @@ body {
   transition: ease 0.5s;
 }
 .counter__box:hover {
-  background-color: #d7263d;
+  background-color: #128fc8;
   color: white;
 }
 .counter__box:hover > .timer {
@@ -250,7 +250,7 @@ body {
   font-size: 3em;
   margin: 10px;
   font-family: "Playfair Display", serif;
-  color: #d7263d;
+  color: #128fc8;
 }
 .counter-text {
   font-family: "Rubik", sans-serif;
@@ -310,7 +310,7 @@ body {
   background-color: white;
   border-radius: 40px;
   padding: 10px;
-  color: #d7263d;
+  color: #02a8cc;
   font-weight: 700;
 }
 .card .card-body {
@@ -326,11 +326,11 @@ body {
 }
 .card .card-img-overlay {
   transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-  background: #234f6d;
+  background: #128fc8;
   background: linear-gradient(
     0deg,
-    rgba(35, 79, 109, 0.3) 0%,
-    rgba(69, 95, 113, 1) 100%
+    rgba(0, 128, 255, 0.3) 0%,
+    rgb(23, 29, 34) 100%
   );
 }
 
@@ -350,7 +350,7 @@ body {
   font-size: 16px;
 }
 .contentbox__wrapper > .contentbox > .content__text {
-  background-color: #d7263d;
+  background-color: #02a8cc;
   color: white;
   border-radius: 30px;
   display: inline;
@@ -371,7 +371,7 @@ body {
 .content__icon {
   background-color: white;
 
-  color: #d7263d;
+  color: #128fc8;
   padding: 15px;
   font-size: 2em;
 }
@@ -413,12 +413,12 @@ body {
   margin: 0% !important;
 }
 .list-inline-item > a > i:hover {
-  color: #d7263d !important;
+  color: #02a8cc !important;
   transition: 0.2 ease;
 }
 
 .footer-link a:hover {
-  color: #d7263d;
+  color: #02a8cc;
   background-color: white;
   font-weight: 600;
 }
@@ -471,7 +471,7 @@ body {
   left: 0;
   bottom: 0;
   display: block;
-  border-bottom: 4px solid #d7263d;
+  border-bottom: 4px solid #02a8cc;
 }
 
 @media screen and (max-width: 480px) {

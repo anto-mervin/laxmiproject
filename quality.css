@@ -1,101 +1,111 @@
-.policy
-{
-    font-family: 'Playfair Display',serif;
-    font-size: 2em;
-    color: white;
-    background-color: #d7263d;
-    padding: 12px 0; 
+.policy {
+  font-family: "Playfair Display", serif;
+  font-size: 2em;
+  color: white;
+  background-color: #128fc8;
+  padding: 12px 0;
 }
 
-#services{background:#efefef;
-    padding:50px;
-  max-width:75vw;
-  margin:0 auto;}
-  body{font-family:sans-serif;color: #444;}
-  div {display: block;}
-  
-  *, :after, :before {
+#services {
+  background: #efefef;
+  padding: 50px;
+  max-width: 75vw;
+  margin: 0 auto;
+}
+body {
+  font-family: sans-serif;
+  color: #444;
+}
+div {
+  display: block;
+}
+
+*,
+:after,
+:before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  }
-  .rowbox:after {clear: both;}
-  .rowbox:after, .rowbox:before {
+}
+.rowbox:after {
+  clear: both;
+}
+.rowbox:after,
+.rowbox:before {
   content: " ";
   display: table;
-  }
-  
-  .rowbox {
+}
+
+.rowbox {
   width: 100%;
   margin: 0 auto;
   max-width: 62.5rem;
-  }
-  .medium-4 {width: 33.33333%;}
-  
-  .column, .columns {
+}
+.medium-4 {
+  width: 33.33333%;
+}
+
+.column,
+.columns {
   position: relative;
-  padding-left: .9375rem;
-  padding-right: .9375rem;
+  padding-left: 0.9375rem;
+  padding-right: 0.9375rem;
   float: left;
-  }
-  
-  .medium-4 h3{
-    padding:20px 0px 20px 0px;
-  }
-  
-  
-  
-  
-  
-  #services .fa {font-size: 3.4em;}
-    #services .features {
+}
+
+.medium-4 h3 {
+  padding: 20px 0px 20px 0px;
+}
+
+#services .fa {
+  font-size: 3.4em;
+}
+#services .features {
   text-align: center;
-  }
-  #services i {padding: 1em;}
-  .fa {
+}
+#services i {
+  padding: 1em;
+}
+.fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  }
-  
-  #services .fa {
+}
+
+#services .fa {
   text-align: center;
-  background: #d7263d;
-  
+  background: #128fc8;
+
   display: block;
   margin: auto;
   font-size: 4em;
-  }
-  #services p {
+}
+#services p {
   padding: 0;
-  float:left;
-  }
-  p {
-  line-height:160%;
+  float: left;
+}
+p {
+  line-height: 160%;
   display: block;
   -webkit-margin-before: 1em;
   -webkit-margin-after: 1em;
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
+}
+
+@media only screen and (max-width: 749px) {
+  .medium-4 {
+    width: 100%;
   }
-  
-  
-  
-  
-  @media only screen and
-    (max-width:749px){
-      
-      .medium-4 {width: 100%;}
-  
-  .column, .columns {
-  position: relative;
-  padding-left: 0rem;
-  padding-right: 0rem;
-  margin-bottom:2em;
+
+  .column,
+  .columns {
+    position: relative;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    margin-bottom: 2em;
   }
-      
-      
-  }
+}
