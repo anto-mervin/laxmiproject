@@ -474,6 +474,10 @@ body {
   border-bottom: 4px solid #02a8cc;
 }
 
+.owl-carousel .owl-item img {
+  aspect-ratio: 5/4;
+}
+
 @media screen and (max-width: 480px) {
   .contentbox__wrapper {
     font-size: 8px;
